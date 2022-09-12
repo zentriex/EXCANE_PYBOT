@@ -28,12 +28,12 @@ async def on_message(message):
         await message.channel.send("https://www.twitter.com/excane")
 
     if message.content.startswith("e!twitch"):
-        await message.channel.send("https://www.twitch.tv/zentriex")
+        await message.channel.send("https://www.twitch.tv/excane")
 
     if message.content.startswith("e!owners"):
         await message.channel.send("Zentriex and Zylen")
 
     if message.content.startswith("e!cc"):
-        await message.channel.send("Sinnn, ")
+        await message.channel.send("Sinnn, Pressed, BananamanFPS")
 
 client.run(os.getenv("DISCORD_TOKEN"))
